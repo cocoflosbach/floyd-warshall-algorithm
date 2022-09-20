@@ -9,15 +9,15 @@ This is a python program to find the shortest part between all nodes in a given 
 
 To execute the program, type the following command in your terminal:
 
-    python test_recursive.py
+    python floyd_warshall_recursive.py
     
 To carry out Unit Tests for each of the functions in the functions folder, type the following command in your terminal:
 
-    python -m unittest tests/unit_test_recursive.py
+    python -m unittest tests/test_floyd_recursive.py
 
 To compare the performance of bothe the recursive and imperative functions, type the following command in your terminal:
 
-    python tests/performance_comparison.py
+    python tests/test_performance.py
     
 
 ## Technologies
