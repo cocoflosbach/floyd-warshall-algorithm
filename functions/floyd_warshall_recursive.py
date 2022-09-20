@@ -18,11 +18,8 @@ def floyd_warshall_rec(dist):
     def fw_recursive_func(i, j, k):
 
         #If start_node [i] is equal to end_node [j]
-        if i == j:
-            return 0
-
         #If intermediate [k] is less than 0
-        elif k < 0:
+        if k < 0:
             return dist[i][j]
 
         #If start_node [i] and end_node [j] is greater than or equal to
@@ -32,8 +29,10 @@ def floyd_warshall_rec(dist):
 
         # If there is a new shorter route through k, replace current route
         else:
-            return min(fw_recursive_func(i, j, k - 1),
-                       fw_recursive_func(i, k, k - 1) + fw_recursive_func(k,j,k - 1))
+            return min(
+                fw_recursive_func(i, j, k - 1),
+                fw_recursive_func(i, k, k - 1) +
+                fw_recursive_func(k, j, k - 1))
 
     # Find the shortest path and update graph
     for k in range(node_number):
@@ -43,3 +42,4 @@ def floyd_warshall_rec(dist):
 
             # Return the updated shortest path matrix
     return dist
+
