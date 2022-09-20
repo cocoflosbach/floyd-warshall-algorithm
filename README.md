@@ -37,7 +37,7 @@ _ Github
 
 - [Profile](https://github.com/Cocoflosbach "Coco Flosbach")
 - [Email](mailto:cocoflosbach@theasnbrand.com?subject=Hi "Hi!")
-- [Website](https://toluflosbach.com")
+- [Website](https://toluflosbach.com)
 
 ## 🤝 Support
 
