@@ -33,11 +33,11 @@ _ Github
 
 ## Author
 
-**Coco Flosbach**
+**Tolu Flosbach**
 
 - [Profile](https://github.com/Cocoflosbach "Coco Flosbach")
 - [Email](mailto:cocoflosbach@theasnbrand.com?subject=Hi "Hi!")
-- [Website](https://cocoflosbach.github.io/Portfolio-site/ "Welcome")
+- [Website](https://toluflosbach.com")
 
 ## 🤝 Support
 
