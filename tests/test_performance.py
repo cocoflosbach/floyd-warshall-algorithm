@@ -2,7 +2,6 @@
 and imperative versions of the Floyd_Warshall algorithm"""
 
 # Import built-in packages
-import sys
 import timeit
 
 # Import the recursive function from the functions folder
